@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About GECB"/>
+        <item
+            android:icon="@drawable/facilities"
+            android:id="@+id/facilities"
+            android:title="Facilities"/>
+        <item
+            android:icon="@drawable/contact1"
+            android:id="@+id/contactus"
+            android:title="Contact Us"/>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit"
+            android:title="Exit" />
+    </group>
+</menu>
