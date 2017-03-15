@@ -80,7 +80,7 @@ public class ListViewAdapter extends BaseAdapter {
                 .into(thumbnail);
 
         // Capture ListView item click
-        /*itemView.setOnClickListener(new OnClickListener() {
+        itemView.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
@@ -92,8 +92,8 @@ public class ListViewAdapter extends BaseAdapter {
                 intent.putExtra("thumbnail", resultp.get(NoticeboardActivity.THUMBNAIL));
                 context.startActivity(intent);
             }
-        });*/
-        thumbnail.setOnClickListener(new OnClickListener() {
+        });
+        /*thumbnail.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 resultp = data1.get(position);
@@ -105,7 +105,7 @@ public class ListViewAdapter extends BaseAdapter {
                 intent.setDataAndType(imguri, "thumbnail");
                 context.startActivity(intent);
             }
-        });
+        });*/
         return itemView;
     }
 }

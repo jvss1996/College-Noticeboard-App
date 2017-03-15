@@ -12,3 +12,4 @@
         android:title="@string/exit"
         app:showAsAction="never" />
 </menu>
+

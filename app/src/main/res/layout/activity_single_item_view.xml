@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_single_item_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.gecb.gecbbikaner.SingleItemView"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:padding="16dp"
     android:background="#ffffff">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/title"
@@ -44,9 +56,20 @@
 
     <ImageView
         android:id="@+id/thumbnail"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/date"
-        android:scaleType="fitXY" />
+        android:layout_below="@id/date" />
+
+            <Button
+                android:id="@+id/button_share_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share Image"
+                android:background="@drawable/contact_bg"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

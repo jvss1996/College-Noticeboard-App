@@ -5,13 +5,13 @@
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
-            android:title="About GECB"/>
+            android:title="About GECB" />
         <item
             android:icon="@drawable/facilities"
             android:id="@+id/facilities"
             android:title="Facilities"/>
         <item
-            android:icon="@drawable/contact1"
+            android:icon="@drawable/dophn"
             android:id="@+id/contactus"
             android:title="Contact Us"/>
         <item

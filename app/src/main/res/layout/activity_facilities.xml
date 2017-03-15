@@ -27,38 +27,38 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Hostel"
-        android:textColor="#ff0000"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         android:textAlignment="center"
         android:id="@+id/hostel"
         android:layout_below="@id/facilities_text"
         android:onClick="hostel_page"
-        android:background="#ffff99"/>
+        android:background="@color/transparent"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Transportation"
-        android:textColor="#ff0000"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         android:textAlignment="center"
         android:id="@+id/transport"
         android:layout_below="@id/hostel"
         android:onClick="transport_page"
-        android:background="#ffff99"/>
+        android:background="@color/transparent"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="More Facilities"
-        android:textColor="#ff0000"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         android:textAlignment="center"
         android:id="@+id/morefaci"
         android:layout_below="@id/transport"
         android:onClick="morefaci_page"
-        android:background="#ffff99"/>
+        android:background="@color/transparent"/>
 
 </RelativeLayout>

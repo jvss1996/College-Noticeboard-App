@@ -9,17 +9,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.gecb.gecbbikaner.DeveloperActivity"
-    android:background="@color/colorPrimaryDark">
+    android:background="#ffffff">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Developer Team"
+        android:text="Developer"
         android:textSize="20sp"
         android:textColor="#ffffff"
         android:id="@+id/devteam"
         android:textAlignment="center"
-        android:background="#ff0000"
+        android:background="@color/colorPrimary"
         android:padding="8dp"
         android:elevation="24dp"/>
 
@@ -29,7 +29,7 @@
         android:layout_below="@id/devteam"
         android:layout_marginTop="20dp"
         android:text="Jaivardhan Singh Shekhawat"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:textAlignment="center"
         android:id="@+id/jainame"/>
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/jainame"
         android:layout_marginTop="20dp"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimaryDark"
         android:text="3rd Year, CSE, GECB"
         android:textSize="18sp"
         android:textAlignment="center"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/bytext"
         android:layout_marginTop="20dp"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimaryDark"
         android:textAlignment="center"
         android:textSize="18sp"
         android:text="+91-9680867988"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/phntext"
         android:layout_marginTop="20dp"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimaryDark"
         android:textAlignment="center"
         android:textSize="18sp"
         android:text="Jvss1996@gmail.com"
